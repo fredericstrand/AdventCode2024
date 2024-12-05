@@ -19,5 +19,6 @@ total_middle_values = 0
 for update in updates:
     if is_valid_update(update, rules):
         total_middle_values += get_middle_value(update)
+    
 
 print(total_middle_values)
