@@ -6,7 +6,7 @@ with open("input.txt", "r") as data:
 def part1(xmas_input):
     lines = xmas_input.split("\n")
     num_xmas = 0
-    pattern = "XMAS"
+    pattern = r"XMAS"
 
     # Check horizontal
     for line in lines:
